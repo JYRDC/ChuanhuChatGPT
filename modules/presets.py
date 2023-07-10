@@ -13,10 +13,10 @@ LLAMA_INFERENCER = None
 
 # ChatGPT 设置
 INITIAL_SYSTEM_PROMPT = "You are a helpful assistant."
-API_HOST = "api.openai.com"
-COMPLETION_URL = "https://api.openai.com/v1/chat/completions"
-BALANCE_API_URL="https://api.openai.com/dashboard/billing/credit_grants"
-USAGE_API_URL="https://api.openai.com/dashboard/billing/usage"
+API_HOST = "api.jingyan.live"
+COMPLETION_URL = "https://api.jingyan.live/v1/chat/completions"
+BALANCE_API_URL="https://api.jingyan.live/dashboard/billing/credit_grants"
+USAGE_API_URL="https://api.jingyan.live/dashboard/billing/usage"
 HISTORY_DIR = Path("history")
 HISTORY_DIR = "history"
 TEMPLATES_DIR = "templates"
