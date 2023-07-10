@@ -88,7 +88,7 @@ with gr.Blocks(css=customCSS, theme=small_and_beautiful_theme) as demo:
                     if multi_api_key:
                         usageTxt = gr.Markdown(i18n("多账号模式已开启，无需输入key，可直接开始对话"), elem_id="usage_display", elem_classes="insert_block")
                     else:
-                        usageTxt = gr.Markdown(i18n("**发送消息** 或 **提交key** 以显示额度"), elem_id="usage_display", elem_classes="insert_block")
+                        usageTxt = gr.Markdown(i18n("**提交JY-API-key** 开始对话，JY-API-key获取链接：https://api.jingyan.live/"), elem_id="usage_display", elem_classes="insert_block")
                     model_select_dropdown = gr.Dropdown(
                         label=i18n("选择模型"), choices=MODELS, multiselect=False, value=MODELS[DEFAULT_MODEL], interactive=True
                     )
