@@ -1,4 +1,4 @@
-EXPOSE 7890
+EXPOSE 7860
 FROM python:3.9-slim-buster as builder
 RUN apt-get update \
     && apt-get install -y build-essential \
